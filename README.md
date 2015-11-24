@@ -5,7 +5,7 @@ Tribus is a small and simple library to translate texts. It catches the user's b
 ## Install
 
 ```
-npm install --save tribus
+npm install --save tribusjs
 ```
 
 ## Usage
