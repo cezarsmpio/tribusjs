@@ -111,7 +111,7 @@ For example:
 }
 ```
 
-[View all language codes](https://github.com/CezarLuiz0/tribus/LANGUAGE_CODES.md)
+[View all language codes](https://github.com/CezarLuiz0/tribus/blob/master/LANGUAGE_CODES.md)
 
 ## Tests
 
