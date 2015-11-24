@@ -1,0 +1,36 @@
+{
+  "name": "tribus",
+  "version": "1.0.0",
+  "description": "Translate your webapp, site or whatever using JS",
+  "main": "lib/tribus.js",
+  "scripts": {
+    "test": "jest",
+    "compile": "babel --presets es2015 src/ -d lib/",
+    "prepublish": "npm run compile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CezarLuiz0/tribus.git"
+  },
+  "keywords": [
+    "translate",
+    "translator",
+    "i18n",
+    "javascript",
+    "js",
+    "babel",
+    "tradutor",
+    "tribus"
+  ],
+  "author": "Cezar Luiz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CezarLuiz0/tribus/issues"
+  },
+  "homepage": "https://github.com/CezarLuiz0/tribus#readme",
+  "devDependencies": {
+    "babel-cli": "^6.2.0",
+    "babel-preset-es2015": "^6.1.18",
+    "jest-cli": "^0.8.0"
+  }
+}
