@@ -11,7 +11,7 @@ npm install --save tribusjs
 ## Usage
 
 ```javascript
-import Tribus from 'tribus';
+import Tribus from 'tribusjs';
 
 var langs = {
   'pt-br': {
