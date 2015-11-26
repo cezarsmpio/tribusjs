@@ -1,0 +1,31 @@
+{
+  "name": "tribusjs",
+  "description": "Translate your webapp, site or whatever using JS",
+  "main": "lib/tribus.js",
+  "authors": [
+    "Cezar Luiz"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "translate",
+    "translator",
+    "i18n",
+    "javascript",
+    "js",
+    "babel",
+    "tradutor",
+    "tribus"
+  ],
+  "homepage": "https://github.com/CezarLuiz0/tribus",
+  "moduleType": [
+    "es6",
+    "node"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
