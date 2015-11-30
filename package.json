@@ -1,6 +1,6 @@
 {
   "name": "tribusjs",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Translate your webapp, site or whatever using JS",
   "main": "lib/tribus.js",
   "scripts": {

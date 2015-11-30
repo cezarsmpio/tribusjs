@@ -10,10 +10,10 @@ class Tribus {
    */
   constructor(langs, defaultLang = 'en-us') {
     // Get user browser language
-    this.userLang = (arguments[2] || this._getLanguage()).toLowerCase();
+    this.setUserLanguage((arguments[2] || this.getLanguage()).toLowerCase());
 
     // Set default lang
-    this.defaultLang = defaultLang.toLowerCase();
+    this.setDefaultLanguage(defaultLang.toLowerCase());
 
     this.langs = langs;
   }
@@ -84,7 +84,7 @@ class Tribus {
    * Get the user language
    * @return {string} Language code
    */
-  _getLanguage() {
+  getLanguage() {
     let nav = window.navigator;
     let browserLanguagePropertyKeys = ['language', 'browserLanguage', 'systemLanguage', 'userLanguage'];
     let language = '';
@@ -111,6 +111,17 @@ class Tribus {
     return null;
   }
 
+  setUserLanguage(lang) {
+    this.userLang = lang;
+
+    localStorage.setItem('tribus_language', lang);
+  }
+
+  setDefaultLanguage(lang) {
+    this.defaultLang = lang;
+
+    localStorage.setItem('tribus_default', lang);
+  }
 
   _supplant(str, o) {
     return str.replace(/{([^{}]*)}/g, function (a, b) {
